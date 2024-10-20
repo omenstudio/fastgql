@@ -7,10 +7,10 @@ import (
 
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/arsmn/fastgql/codegen"
-	"github.com/arsmn/fastgql/codegen/config"
-	"github.com/arsmn/fastgql/codegen/templates"
-	"github.com/arsmn/fastgql/plugin"
+	"github.com/omenstudio/fastgql/codegen"
+	"github.com/omenstudio/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/codegen/templates"
+	"github.com/omenstudio/fastgql/plugin"
 )
 
 type federation struct {
@@ -33,21 +33,21 @@ func (f *federation) MutateConfig(cfg *config.Config) error {
 	builtins := config.TypeMap{
 		"_Service": {
 			Model: config.StringList{
-				"github.com/arsmn/fastgql/plugin/federation/fedruntime.Service",
+				"github.com/omenstudio/fastgql/plugin/federation/fedruntime.Service",
 			},
 		},
 		"_Entity": {
 			Model: config.StringList{
-				"github.com/arsmn/fastgql/plugin/federation/fedruntime.Entity",
+				"github.com/omenstudio/fastgql/plugin/federation/fedruntime.Entity",
 			},
 		},
 		"Entity": {
 			Model: config.StringList{
-				"github.com/arsmn/fastgql/plugin/federation/fedruntime.Entity",
+				"github.com/omenstudio/fastgql/plugin/federation/fedruntime.Entity",
 			},
 		},
 		"_Any": {
-			Model: config.StringList{"github.com/arsmn/fastgql/graphql.Map"},
+			Model: config.StringList{"github.com/omenstudio/fastgql/graphql.Map"},
 		},
 	}
 	for typeName, entry := range builtins {

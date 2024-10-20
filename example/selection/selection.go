@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arsmn/fastgql/graphql"
+	"github.com/omenstudio/fastgql/graphql"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

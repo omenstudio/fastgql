@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/arsmn/fastgql/codegen"
-	"github.com/arsmn/fastgql/codegen/config"
-	"github.com/arsmn/fastgql/codegen/templates"
-	"github.com/arsmn/fastgql/internal/rewrite"
-	"github.com/arsmn/fastgql/plugin"
+	"github.com/omenstudio/fastgql/codegen"
+	"github.com/omenstudio/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/codegen/templates"
+	"github.com/omenstudio/fastgql/internal/rewrite"
+	"github.com/omenstudio/fastgql/plugin"
 	"github.com/pkg/errors"
 )
 

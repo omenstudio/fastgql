@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/arsmn/fastgql/graphql"
+	"github.com/omenstudio/fastgql/graphql"
 	"github.com/stretchr/testify/require"
 )
 

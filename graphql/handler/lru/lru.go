@@ -3,8 +3,8 @@ package lru
 import (
 	"context"
 
-	"github.com/arsmn/fastgql/graphql"
 	lru "github.com/hashicorp/golang-lru/v2"
+	"github.com/omenstudio/fastgql/graphql"
 )
 
 type LRU struct {

@@ -6,12 +6,12 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/arsmn/fastgql/graphql/errcode"
+	"github.com/omenstudio/fastgql/graphql/errcode"
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
 
-	"github.com/arsmn/fastgql/graphql"
 	"github.com/mitchellh/mapstructure"
+	"github.com/omenstudio/fastgql/graphql"
 )
 
 const errPersistedQueryNotFound = "PersistedQueryNotFound"

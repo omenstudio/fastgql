@@ -6,9 +6,9 @@ import (
 	"log"
 	"runtime/debug"
 
-	"github.com/arsmn/fastgql/example/todo"
-	"github.com/arsmn/fastgql/graphql/handler"
-	"github.com/arsmn/fastgql/graphql/playground"
+	"github.com/omenstudio/fastgql/example/todo"
+	"github.com/omenstudio/fastgql/graphql/handler"
+	"github.com/omenstudio/fastgql/graphql/playground"
 	"github.com/valyala/fasthttp"
 )
 

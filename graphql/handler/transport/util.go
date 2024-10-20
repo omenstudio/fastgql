@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/arsmn/fastgql/graphql"
+	"github.com/omenstudio/fastgql/graphql"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )
 

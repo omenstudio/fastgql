@@ -5,8 +5,8 @@ import (
 	"go/types"
 	"strings"
 
-	"github.com/arsmn/fastgql/codegen/config"
-	"github.com/arsmn/fastgql/codegen/templates"
+	"github.com/omenstudio/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/codegen/templates"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/v2/ast"
 )
@@ -26,7 +26,7 @@ type FieldArgument struct {
 	Value         interface{} // value set in Data
 }
 
-//ImplDirectives get not Builtin and location ARGUMENT_DEFINITION directive
+// ImplDirectives get not Builtin and location ARGUMENT_DEFINITION directive
 func (f *FieldArgument) ImplDirectives() []*Directive {
 	d := make([]*Directive, 0)
 	for i := range f.Directives {

@@ -4,10 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/arsmn/fastgql/example/starwars"
-	"github.com/arsmn/fastgql/example/starwars/generated"
-	"github.com/arsmn/fastgql/graphql/handler"
-	"github.com/arsmn/fastgql/graphql/playground"
+	"github.com/omenstudio/fastgql/example/starwars"
+	"github.com/omenstudio/fastgql/example/starwars/generated"
+	"github.com/omenstudio/fastgql/graphql/handler"
+	"github.com/omenstudio/fastgql/graphql/playground"
 	"github.com/valyala/fasthttp"
 )
 

@@ -5,14 +5,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arsmn/fastgql/codegen/templates"
+	"github.com/omenstudio/fastgql/codegen/templates"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 
 type DirectiveList map[string]*Directive
 
-//LocationDirectives filter directives by location
+// LocationDirectives filter directives by location
 func (dl DirectiveList) LocationDirectives(location string) DirectiveList {
 	return locationDirectives(dl, ast.DirectiveLocation(location))
 }
@@ -24,7 +24,7 @@ type Directive struct {
 	Builtin bool
 }
 
-//IsLocation check location directive
+// IsLocation check location directive
 func (d *Directive) IsLocation(location ...ast.DirectiveLocation) bool {
 	for _, l := range d.Locations {
 		for _, a := range location {

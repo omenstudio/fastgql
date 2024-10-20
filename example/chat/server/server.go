@@ -6,15 +6,15 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/arsmn/fastgql/graphql/handler/extension"
-	"github.com/arsmn/fastgql/graphql/handler/transport"
+	"github.com/omenstudio/fastgql/graphql/handler/extension"
+	"github.com/omenstudio/fastgql/graphql/handler/transport"
 	"github.com/valyala/fasthttp"
 
-	"github.com/arsmn/fastgql/graphql/playground"
+	"github.com/omenstudio/fastgql/graphql/playground"
 
-	"github.com/arsmn/fastgql/example/chat"
-	"github.com/arsmn/fastgql/graphql/handler"
 	"github.com/fasthttp/websocket"
+	"github.com/omenstudio/fastgql/example/chat"
+	"github.com/omenstudio/fastgql/graphql/handler"
 	"github.com/opentracing/opentracing-go"
 	"sourcegraph.com/sourcegraph/appdash"
 	appdashtracer "sourcegraph.com/sourcegraph/appdash/opentracing"

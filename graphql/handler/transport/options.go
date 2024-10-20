@@ -3,7 +3,7 @@ package transport
 import (
 	"net/http"
 
-	"github.com/arsmn/fastgql/graphql"
+	"github.com/omenstudio/fastgql/graphql"
 	"github.com/valyala/fasthttp"
 )
 

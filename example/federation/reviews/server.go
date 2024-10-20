@@ -5,11 +5,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/arsmn/fastgql/example/federation/reviews/graph"
-	"github.com/arsmn/fastgql/example/federation/reviews/graph/generated"
-	"github.com/arsmn/fastgql/graphql/handler"
-	"github.com/arsmn/fastgql/graphql/handler/debug"
-	"github.com/arsmn/fastgql/graphql/playground"
+	"github.com/omenstudio/fastgql/example/federation/reviews/graph"
+	"github.com/omenstudio/fastgql/example/federation/reviews/graph/generated"
+	"github.com/omenstudio/fastgql/graphql/handler"
+	"github.com/omenstudio/fastgql/graphql/handler/debug"
+	"github.com/omenstudio/fastgql/graphql/playground"
 	"github.com/valyala/fasthttp"
 )
 

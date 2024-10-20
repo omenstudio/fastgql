@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arsmn/fastgql/internal/code"
+	"github.com/omenstudio/fastgql/internal/code"
 )
 
 type Import struct {

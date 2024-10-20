@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/arsmn/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/codegen/config"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/v2/ast"
 )

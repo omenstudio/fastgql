@@ -3,12 +3,12 @@ package api
 import (
 	"syscall"
 
-	"github.com/arsmn/fastgql/codegen"
-	"github.com/arsmn/fastgql/codegen/config"
-	"github.com/arsmn/fastgql/plugin"
-	"github.com/arsmn/fastgql/plugin/federation"
-	"github.com/arsmn/fastgql/plugin/modelgen"
-	"github.com/arsmn/fastgql/plugin/resolvergen"
+	"github.com/omenstudio/fastgql/codegen"
+	"github.com/omenstudio/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/plugin"
+	"github.com/omenstudio/fastgql/plugin/federation"
+	"github.com/omenstudio/fastgql/plugin/modelgen"
+	"github.com/omenstudio/fastgql/plugin/resolvergen"
 	"github.com/pkg/errors"
 )
 

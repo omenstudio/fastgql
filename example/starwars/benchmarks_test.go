@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arsmn/fastgql/example/starwars/generated"
-	"github.com/arsmn/fastgql/graphql/handler"
+	"github.com/omenstudio/fastgql/example/starwars/generated"
+	"github.com/omenstudio/fastgql/graphql/handler"
 	"github.com/valyala/fasthttp"
 )
 

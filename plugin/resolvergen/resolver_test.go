@@ -6,8 +6,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/arsmn/fastgql/codegen"
-	"github.com/arsmn/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/codegen"
+	"github.com/omenstudio/fastgql/codegen/config"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/tools/go/packages"
 )
@@ -27,7 +27,7 @@ func TestLayoutSingleFile(t *testing.T) {
 	}
 
 	require.NoError(t, p.GenerateCode(data))
-	assertNoErrors(t, "github.com/arsmn/fastgql/plugin/resolvergen/testdata/singlefile/out")
+	assertNoErrors(t, "github.com/omenstudio/fastgql/plugin/resolvergen/testdata/singlefile/out")
 }
 
 func TestLayoutFollowSchema(t *testing.T) {
@@ -69,7 +69,7 @@ func testFollowSchemaPersistence(t *testing.T, dir string) {
 	}
 
 	require.NoError(t, p.GenerateCode(data))
-	assertNoErrors(t, "github.com/arsmn/fastgql/plugin/resolvergen/"+dir+"/out")
+	assertNoErrors(t, "github.com/omenstudio/fastgql/plugin/resolvergen/"+dir+"/out")
 }
 
 func assertNoErrors(t *testing.T, pkg string) {

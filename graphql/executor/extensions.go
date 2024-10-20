@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/arsmn/fastgql/graphql"
+	"github.com/omenstudio/fastgql/graphql"
 )
 
 // Use adds the given extension to this Executor.

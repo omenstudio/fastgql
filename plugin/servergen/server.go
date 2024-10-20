@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/arsmn/fastgql/codegen"
-	"github.com/arsmn/fastgql/codegen/templates"
-	"github.com/arsmn/fastgql/plugin"
+	"github.com/omenstudio/fastgql/codegen"
+	"github.com/omenstudio/fastgql/codegen/templates"
+	"github.com/omenstudio/fastgql/plugin"
 	"github.com/pkg/errors"
 )
 

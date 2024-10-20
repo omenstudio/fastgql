@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/arsmn/fastgql/graphql"
+	"github.com/omenstudio/fastgql/graphql"
 
-	"github.com/arsmn/fastgql/api"
-	"github.com/arsmn/fastgql/codegen/config"
-	"github.com/arsmn/fastgql/plugin/stubgen"
+	"github.com/omenstudio/fastgql/api"
+	"github.com/omenstudio/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/plugin/stubgen"
 )
 
 func main() {

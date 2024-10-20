@@ -4,12 +4,12 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/arsmn/fastgql/internal/code"
+	"github.com/omenstudio/fastgql/internal/code"
 
-	"github.com/arsmn/fastgql/codegen"
-	"github.com/arsmn/fastgql/codegen/config"
-	"github.com/arsmn/fastgql/codegen/templates"
-	"github.com/arsmn/fastgql/plugin"
+	"github.com/omenstudio/fastgql/codegen"
+	"github.com/omenstudio/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/codegen/templates"
+	"github.com/omenstudio/fastgql/plugin"
 )
 
 func New(filename string, typename string) plugin.Plugin {

@@ -1,6 +1,6 @@
-module github.com/arsmn/fastgql
+module github.com/omenstudio/fastgql
 
-go 1.19
+go 1.23.2
 
 require (
 	github.com/fasthttp/websocket v1.5.0

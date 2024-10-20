@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arsmn/fastgql/graphql"
-	"github.com/arsmn/fastgql/graphql/errcode"
 	"github.com/fasthttp/websocket"
+	"github.com/omenstudio/fastgql/graphql"
+	"github.com/omenstudio/fastgql/graphql/errcode"
 	"github.com/valyala/fasthttp"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )

@@ -3,8 +3,8 @@
 package plugin
 
 import (
-	"github.com/arsmn/fastgql/codegen"
-	"github.com/arsmn/fastgql/codegen/config"
+	"github.com/omenstudio/fastgql/codegen"
+	"github.com/omenstudio/fastgql/codegen/config"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

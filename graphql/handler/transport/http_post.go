@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"mime"
 
-	"github.com/arsmn/fastgql/graphql"
+	"github.com/omenstudio/fastgql/graphql"
 	"github.com/valyala/fasthttp"
 )
 

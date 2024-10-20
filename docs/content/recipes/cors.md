@@ -17,9 +17,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/arsmn/fastgql/graphql/handler/transport"
-	"github.com/arsmn/fastgql/example/starwars"
-	"github.com/arsmn/fastgql/graphql/handler"
+	"github.com/omenstudio/fastgql/graphql/handler/transport"
+	"github.com/omenstudio/fastgql/example/starwars"
+	"github.com/omenstudio/fastgql/graphql/handler"
 	"github.com/go-chi/chi"
 	"github.com/rs/cors"
 )
